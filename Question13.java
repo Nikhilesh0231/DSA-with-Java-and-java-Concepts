@@ -21,5 +21,7 @@ public class Question13 {
     System.out.print("Enter the second number : ");
     int num2 = sc.nextInt();
     greatestCommonDivisor(num1, num2);
+    sc.close();
+
   }  
 }
