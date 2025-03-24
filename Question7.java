@@ -11,5 +11,7 @@ public class Question7 {
     double radius = sc.nextDouble();
     double circumference = calcCircumference(radius);
     System.out.println("The circumference of the circle is: "+circumference);
+sc.close();
+
   }
 }

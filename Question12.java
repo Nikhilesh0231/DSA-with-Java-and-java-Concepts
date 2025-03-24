@@ -17,5 +17,7 @@ public class Question12 {
       a = b;
       b = c;
     }
+    sc.close();
+
   }
 }

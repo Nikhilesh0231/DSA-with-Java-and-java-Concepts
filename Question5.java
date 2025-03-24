@@ -18,5 +18,7 @@ public class Question5 {
     int num3 = sc.nextInt();
     int avg = average(num1,num2,num3);
     System.out.println("Average of three numbers is : "+avg);
+sc.close();
+
   }
 }

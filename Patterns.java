@@ -133,7 +133,7 @@ for(int i = 1 ; i < 6 ;i++){
 //        0 1
 //        1 0 1
 System.out.println("\n0-1 Triangle");
-int num1 = 1;
+
 for(int i = 1 ; i < 6 ;i++){
   for(int j = 1 ; j <= i;j++){
     if((i+j)%2==0){

@@ -30,5 +30,6 @@ public class Question11 {
     System.out.print("Enter the power : ");
     int power = sc.nextInt();
     numberRaisedToPower(base,power);
+    sc.close();
   }  
 }

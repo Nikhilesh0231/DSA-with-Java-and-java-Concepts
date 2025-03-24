@@ -49,5 +49,7 @@ public class elseif {
       else {
         System.out.println("Invalid Button Code");
       }
+sc.close();
+
     }
 }

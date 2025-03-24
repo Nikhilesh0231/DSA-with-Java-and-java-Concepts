@@ -14,5 +14,7 @@ public class ProductTwoNumbers {
     int num2 = sc.nextInt();
     int product = productNum(num1,num2);
     System.out.println("The product of the two numbers is: "+product);
+sc.close();
+
   }
 }

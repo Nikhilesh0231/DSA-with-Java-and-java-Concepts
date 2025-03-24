@@ -17,5 +17,7 @@ public class Question2Recursion {
      int n = sc.nextInt();
      int result = printSum(n);
      System.out.print("The sum of first n natural numbers is : " + result);
+sc.close();
+
     }
 }

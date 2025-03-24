@@ -37,6 +37,7 @@ public class if_else {
                 System.out.println("Second number is greater");
             }
         }
+        sc.close();
 
     }
 }

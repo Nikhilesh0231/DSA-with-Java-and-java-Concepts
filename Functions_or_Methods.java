@@ -20,5 +20,7 @@ class Functions_or_Methods{
     System.out.print("Enter your name :");
     String name = sc.nextLine();
     printMyName(name);//Calling Function
+sc.close();
+
   }
 }

@@ -10,5 +10,7 @@ public class Question3 {
       sum = sum + i;
     }
     System.out.println("Sum of first "+num+" natural numbers is : "+sum);
+sc.close();
+
   }  
 }

@@ -16,5 +16,8 @@ public class Question8 {
     System.out.print("Enter your age : ");
     int age = sc.nextInt();
     voteEligibility(age);
+    
+    
+sc.close();
   }
 }

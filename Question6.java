@@ -18,5 +18,7 @@ public class Question6 {
    int n = sc.nextInt();
    int sum = sumOddNumbers(n);
    System.out.println("Sum of odd numbers from 1 to " + n + " is : "+sum);
+sc.close();
+
   }  
 }
