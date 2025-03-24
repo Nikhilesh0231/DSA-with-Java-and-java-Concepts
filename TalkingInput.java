@@ -9,6 +9,7 @@ public class TalkingInput {
       //next() --> input one word
       //nxtInt --> input integer
       System.out.println("Hello, " + name + "!");
+      sc.close();
 
   }
   

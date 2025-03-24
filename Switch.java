@@ -30,5 +30,7 @@ public class Switch {
       default:
       System.out.println("Invalid Input");
     }
+    sc.close();
+
   }
 }

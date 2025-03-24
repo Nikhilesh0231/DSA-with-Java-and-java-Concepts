@@ -5,6 +5,10 @@ public class Variables {
     double y = 20.5; // double
     boolean z = true; // boolean
     String name = "Nikhilesh";//String 
+    System.out.println(x);
+    System.out.println(y);
+    System.out.println(z);
+    System.out.println(name);
     //Variables can be updated or we can say that they are mutable.
     name = "Tiwari";
     x= 20;

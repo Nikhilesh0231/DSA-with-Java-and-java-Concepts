@@ -30,5 +30,7 @@ public class TwoDArray {
       }
       System.out.println();
     }
+    sc.close();
+
   }  
 }
