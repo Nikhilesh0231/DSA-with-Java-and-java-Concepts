@@ -20,5 +20,7 @@ public class BitManipulationUpdateBit {
       System.out.println(newnumber);
 
       }
+    sc.close();
+
   }
 }
