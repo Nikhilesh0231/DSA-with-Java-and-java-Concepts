@@ -16,5 +16,7 @@ public static void main(String[] args) {
   for(int i = 0 ; i < names.length ; i++){
     System.out.print((i+1)+"."+names[i] + " ");
   }
+  sc.close();
+
 }
 }

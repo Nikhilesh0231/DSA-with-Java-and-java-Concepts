@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 
 public class Question22 {
   //Question -> Reverse The String

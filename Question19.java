@@ -26,5 +26,7 @@ public class Question19 {
         }
       }
     }
+    sc.close();
+
   }
 }

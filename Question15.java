@@ -19,5 +19,7 @@ public class Question15 {
         System.out.println("Your Entered element is stored at index : " + i);
       }
     }
+    sc.close();
+
   }  
 }

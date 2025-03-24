@@ -75,5 +75,7 @@ public class StringFunction {
 
 
   //Strings are Immutable-> it means if we can declare any String then we can not modifiy it.
+  sc.close();
+
   }
 }

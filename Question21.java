@@ -74,6 +74,7 @@ public class Question21 {
 
             System.out.println();
         }
+        sc.close();
 
     }
 }

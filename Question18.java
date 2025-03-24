@@ -24,5 +24,7 @@ public class Question18 {
     else{
       System.out.println("Array is not sorted in ascending order");
     }
+    sc.close();
+
   }
 }
