@@ -21,7 +21,6 @@ public class Stack1 {
         // and using pop method we can remove element lastly added in the stack
         //And Storesobject in sort of tower
 
-
         // System.out.println(Fruits);
 
         //Now suppose a case where we last fruit as my Fav fruit.
