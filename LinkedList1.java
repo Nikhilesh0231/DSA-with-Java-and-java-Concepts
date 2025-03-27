@@ -36,5 +36,15 @@ public class LinkedList1 {
         //Accessing Element from last
         System.out.println(list.getLast());
 
+        //Accessing list size
+        System.out.println(list.size());
+
+
+        //Iterating over an linked list
+
+        for ( int i = 0 ; i < list.size(); i++){
+            System.out.println(list.get(i));
+        }
+
     }    
 }
