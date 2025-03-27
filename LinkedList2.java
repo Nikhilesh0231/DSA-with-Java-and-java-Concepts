@@ -1,5 +1,10 @@
 public class LinkedList2 {
     Node head; // Declare the head of the list
+    private int size;
+
+    LinkedList2(){
+        this.size = 0;
+    }
     class Node {
         String data;
         Node next;
@@ -7,6 +12,7 @@ public class LinkedList2 {
         Node(String data) {
             this.data = data;
             this.next = null;
+            size++;
         }
     }
     //Adding data to the list 
@@ -55,6 +61,49 @@ public class LinkedList2 {
         System.out.println("NULL");
     }
 
+
+    //delete First
+
+    public void deleteFirst(){
+        if(head == null) {
+            System.out.println("The List is Empty");
+            return;
+        }
+        size--;
+        head = head.next;
+    }
+
+    //delete Last
+
+    public void deleteLast(){
+        if(head == null) {
+            System.out.println("The List is Empty");
+            return;
+        }
+
+        size--;
+        if (head.next == null) {
+            head = null;
+            return;
+        }
+
+        Node secondLast = head;
+        Node lastNode = head.next;
+
+
+        while (lastNode.next != null) {
+            lastNode = lastNode.next;
+            secondLast = secondLast.next;
+        }
+        secondLast.next = null;
+    }
+
+    //getting size 
+
+    public int getSize(){
+        return size;
+    }
+
     public static void main(String[] args) {
         LinkedList2 list = new LinkedList2();
         list.addFirst("is");
@@ -62,6 +111,20 @@ public class LinkedList2 {
         list.printList();
         list.addLast("Magic");
         list.addLast("of Linked List");
+        System.out.println(list.getSize());
         list.printList();
+        list.deleteFirst();
+        list.printList();
+        list.deleteLast();
+        list.printList();
+        System.out.println(list.getSize());
+
+        list.deleteFirst();
+        list.printList();
+        list.deleteLast();
+        list.printList();
+        System.out.println(list.getSize());
+
+
     }
 }
